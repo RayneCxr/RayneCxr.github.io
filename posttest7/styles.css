@@ -1,0 +1,268 @@
+.dashboard {
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+}
+
+.dash-side-bar {
+    width: 15%;
+    height: auto;
+    background-color: #8d8d8d;
+    display: flex;
+    flex-direction: column;
+}
+
+.dash-side-bar img {
+    width: 96px;
+}
+
+.dash-side-bar ul li {
+    list-style: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.dash-container {
+    width: 85%;
+    height: auto;
+    background-color: #EFEFEF;
+    overflow: hidden;
+}
+
+.dash-nav-bar {
+    width: auto;
+    padding: 16px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dash-nav-icon {
+    display: inline;
+}
+
+.dash-account {
+    display: inline-flex;
+    gap: 8px;
+}
+
+.dash-main {
+    width: auto;
+    margin: 16px;
+    padding: 32px;
+    border-radius: 16px;
+    background-color: white;
+}
+
+.leading-btn {
+    text-align: end;
+}
+
+.dash-main table {
+    width: 100%;
+    border: 2px solid #ABABAB;
+    border-collapse: collapse;
+}
+
+.dash-main table thead {
+    background-color: #EFEFEF;
+}
+
+.dash-main table th, td {
+    padding: 8px;
+    border: 1px solid #ABABAB;
+}
+
+.action {
+    text-align: center;
+}
+
+.add-btn {
+    background-color: #22BB33;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    color: white;
+}
+
+.edit-btn {
+    background-color: #545454;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+}
+
+.delete-btn {
+    background-color: #BB2124;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+}
+.history-btn {
+    background-color: #5BC0DE;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    color: white;
+}
+
+.add-btn:hover {
+    filter: brightness(90%);
+}
+
+.edit-btn:hover {
+    filter: brightness(90%);
+}
+
+.delete-btn:hover {
+    filter: brightness(90%);
+}
+
+.history-btn:hover {
+    filter: brightness(90%);
+}
+
+
+.add-data {
+    height: 100vh;
+    background-image: url('../pict/backgrd.png');
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-form-container {
+    background-color: rgb(255, 255, 255);
+    padding: 64px;
+    border-radius: 32px;
+}
+
+.add-form-container h1 {
+    text-align: center;
+}
+
+.add-form-container hr {
+    border: 2px solid #000000;
+    margin-bottom: 24px;
+}
+
+.add-form-container form {
+    display: flex;
+    flex-direction: column;
+}
+/* Tambahkan CSS ini ke dalam file CSS Anda */
+
+
+.comment-box .user-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.comment-box .user-info .user-name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.comment-box .user-info .post-time {
+    font-size: 14px;
+    color: #888;
+}
+
+.comment-box .comment-text {
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+.comment-box .comment-image {
+    margin-top: 12px;
+}
+
+.comment-box .comment-image img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.comment-box .comment-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.comment-box .comment-actions button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.comment-box .comment-actions button:hover {
+    background-color: #0056b3;
+}
+
+/* Tambahkan CSS ini ke dalam file CSS Anda */
+.comment-box {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.comment-box .user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.comment-box .user-info .user-name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.comment-box .user-info .post-time {
+    font-size: 14px;
+    color: #888;
+}
+
+.comment-box .comment-text {
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+.comment-box .comment-image img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.comment-box .comment-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.comment-box .comment-actions button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.comment-box .comment-actions button:hover {
+    background-color: #0056b3;
+}
+
